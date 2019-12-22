@@ -13,3 +13,7 @@ ALL            ALL = (ALL) NOPASSWD: ALL
     web.vm.box = "apache"
   end
 ```
+
+ansible_default_ipv4.address
+
+config.vm.network "forwarded_port", guest: 443, host: 443
