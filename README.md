@@ -23,3 +23,9 @@ https://askubuntu.com/questions/170348/how-to-create-a-local-apt-repository
 ```
 https://www.nginx.com/resources/wiki/start/topics/examples/likeapache/
 ```
+
+Download all my github repositories
+
+```
+curl -s https://api.github.com/users/samsquire/repos?page=2 | jq -r ".[].ssh_url" | xargs -L1 git clone
+```
