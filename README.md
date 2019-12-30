@@ -29,3 +29,5 @@ Download all my github repositories
 ```
 curl -s https://api.github.com/users/samsquire/repos?page=2 | jq -r ".[].ssh_url" | xargs -L1 git clone
 ```
+
+./gradlew build -Dhttp.socketTimeout=60000 -Dhttp.connectionTimeout=60000
