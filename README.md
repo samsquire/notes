@@ -31,3 +31,8 @@ curl -s https://api.github.com/users/samsquire/repos?page=2 | jq -r ".[].ssh_url
 ```
 
 ./gradlew build -Dhttp.socketTimeout=60000 -Dhttp.connectionTimeout=60000
+
+Docker GUI
+```
+sudo docker run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" gui-app
+```
