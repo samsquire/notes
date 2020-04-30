@@ -39,8 +39,11 @@ sudo docker run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xa
 
 # Creating a vagrant box
 
+Visudo passwordless login
+
 ```
 useradd -m vagrant
+sudo apt-get install openssh-server
 sudo -u vagrant bash
 mkdir ~/.ssh/
 cat <<EOF > /home/vagrant/.ssh/authorized_keys
