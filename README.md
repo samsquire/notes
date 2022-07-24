@@ -57,3 +57,23 @@ From outside the VM:
 vagrant package --base virtualbox_name
 vagrant box add package.box 
 ```
+
+```
+“The ignorant learn from none,
+the simple learn from some,
+the intelligent learn from many,
+but enlightened learn from all.
+
+The arrogant learn from none,
+the gracious learn from some,
+the patient learn from many,
+but the humble learn from all.
+
+The disinterested learn from none,
+the curious learn from some,
+the keen learn from many,
+but the disciplined learn from all.”
+― Matshona Dhliwayo
+
+
+```
